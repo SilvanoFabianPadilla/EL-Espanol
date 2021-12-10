@@ -1,0 +1,470 @@
+/*Imagen principal*/
+div#navegar{
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	width: 250px;
+	height: 715px;
+	background-image: url(img/fuego.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: -8px;
+}
+
+/*Logotipo*/
+img#logo{
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 170px;
+	height: 170px;
+}
+
+/*Secciones*/
+h2#nav{
+	font-family: 'Lobster', cursive;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 29px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+h2#nav:hover{
+	font-size: 29px;
+	color: red;
+	text-decoration: underline;
+}
+
+/*Redes sociales*/
+div#contacto{
+	margin-top: 0px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+img#redes{
+	width: 50px;
+	height: 50px;
+}
+
+img#redes:hover{
+	width: 70px;
+	height: 70px;
+}
+
+/*Inicio*/
+div#inicio{
+	background-image: url(img/tabla.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1231px;
+	height: 715px;
+	display: flex;
+	margin-top: -715px;
+	margin-left: 242px;
+}
+
+h2#titulo{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 70px;
+	margin-left: 470px;
+	margin-top: 50px;
+}
+
+h2#titulo:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+img#logoDos{
+	margin-left: 495px;
+	margin-top: -50px;
+	width: 230px;
+	height: 230px;
+}
+
+h2#slogan{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 45px;
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+
+img#flecha{
+	margin-top: 0px;
+	margin-left: 570px;
+	height: 100px;
+}
+
+/*Menu*/
+div#menu{
+	background-image: url(img/taco2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 1650px;
+	width: 1231px;
+	margin-left: 242px;
+}
+
+h2#menu{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+
+div#imagenes{
+	height: 900px;
+	width: 1050px;
+	margin-left: 90px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*Fondo de menu*/
+div#uno{
+	background: #FF0000;
+	background: -moz-linear-gradient(left, #FF0000 0%, #E3FF00 50%, #FF0000 100%);
+	background: -webkit-linear-gradient(left, #FF0000 0%, #E3FF00 50%, #FF0000 100%);
+	background: linear-gradient(to right, #FF0000 0%, #E3FF00 50%, #FF0000 100%);
+	-webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), inset 4px 4px 15px 0px rgba(0,0,0,0); 
+	box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), inset 4px 4px 15px 0px rgba(0,0,0,0);
+	height: 550px;
+	width: 300px;
+	margin: 25px;
+}
+
+/*Tacos de carnitas*/
+h2#carni{
+	font-family: 'Arbutus', cursive;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+ul#carni{
+	font-family: 'Arbutus', cursive;
+	font-size: 20px;
+	color: black;
+}
+
+/*bebidas y postres*/
+h2#bebidas{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 280px;
+	text-align: center;
+}
+
+div#dos{
+	background: #FF0000;
+	background: -moz-linear-gradient(left, #FF0000 0%, #E3FF00 50%, #FF0000 100%);
+	background: -webkit-linear-gradient(left, #FF0000 0%, #E3FF00 50%, #FF0000 100%);
+	background: linear-gradient(to right, #FF0000 0%, #E3FF00 50%, #FF0000 100%);
+	-webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), inset 4px 4px 15px 0px rgba(0,0,0,0); 
+	box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), inset 4px 4px 15px 0px rgba(0,0,0,0);
+	height: 550px;
+	width: 300px;
+	margin-left: 150px;
+}
+
+img#flechaDos{
+	margin-top: 470px;
+	margin-left: 570px;
+	height: 100px;
+}
+
+/*paquetes*/
+div#paquetes{
+	background-image: url(img/tapete.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 1600px;
+	width: 1231px;
+	margin-left: 242px;
+}
+
+h2#paque{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+/*paquetesUno*/
+div#paqueUno{
+	border-width: 5px;
+	border-style: dashed;
+	border-color: #FFFF00 ;
+	height: 400px;
+	width: 1050px;
+	margin-left: 90px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h2#todo{
+	font-family: 'Arbutus', cursive;
+	text-decoration: underline;
+	font-size: 30px;
+	margin-left: 30px;
+	margin-top: 150px;
+	color: black;
+}
+
+img#taco5{
+	height: 350px;
+	width: 350px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+h2#par{
+	font-family: 'Arbutus', cursive;
+	font-size: 20px;
+	margin-top: 80px;
+	margin-left: -330px;
+	margin-top: 200px;
+	color: black;
+}
+
+/*paquetesDos*/
+div#paqueDos{
+	border-width: 5px;
+	border-style: dashed;
+	border-color: #FFFF00 ;
+	height: 400px;
+	width: 1050px;
+	margin-left: 90px;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h2#parDos{
+	font-family: 'Arbutus', cursive;
+	font-size: 20px;
+	margin-top: 80px;
+	margin-left: -220px;
+	margin-top: 200px;
+	color: black;
+}
+
+img#taco6{
+	height: 350px;
+	width: 350px;
+	margin-left:130px;
+	margin-top: 20px;
+}
+
+/*paquetesTres*/
+h2#parTres{
+	font-family: 'Arbutus', cursive;
+	font-size: 20px;
+	margin-top: 80px;
+	margin-left: -170px;
+	margin-top: 200px;
+	color: black;
+}
+
+img#taco7{
+	height: 350px;
+	width: 350px;
+	margin-left:80px;
+	margin-top: 20px;
+}
+
+img#flechaTres{
+	margin-top: 50px;
+	margin-left: 570px;
+	height: 100px;
+}
+
+/*promociones*/
+div#promociones{
+	background-image: url(img/ama.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 1200px;
+	width: 1231px;
+	margin-left: 242px;
+}
+
+h2#promo{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 85px;
+	text-align: center;
+}
+
+div#promo{
+	height: 900px;
+	width: 1050px;
+	margin-left: 90px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div#dia{
+	background: #000000;
+	background: -moz-linear-gradient(45deg, #000000 0%, #FFFFFF 50%, #000000 100%);
+	background: -webkit-linear-gradient(45deg, #000000 0%, #FFFFFF 50%, #000000 100%);
+	background: linear-gradient(45deg, #000000 0%, #FFFFFF 50%, #000000 100%);
+	border-radius: 47px 47px 47px 47px;
+	-moz-border-radius: 47px 47px 47px 47px;
+	-webkit-border-radius: 47px 47px 47px 47px;
+	border: 0px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	height: 400px;
+	width: 300px;
+	margin: 25px;
+}
+
+h2#dia{
+	font-family: 'Arbutus', cursive;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+h2#lunes{
+	font-family: 'Arbutus', cursive;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+
+div#diaDos{
+	background: #000000;
+	background: -moz-linear-gradient(45deg, #000000 0%, #FFFFFF 50%, #000000 100%);
+	background: -webkit-linear-gradient(45deg, #000000 0%, #FFFFFF 50%, #000000 100%);
+	background: linear-gradient(45deg, #000000 0%, #FFFFFF 50%, #000000 100%);
+	border-radius: 47px 47px 47px 47px;
+	-moz-border-radius: 47px 47px 47px 47px;
+	-webkit-border-radius: 47px 47px 47px 47px;
+	border: 0px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	height: 400px;
+	width: 300px;
+	margin-left: 150px;
+}
+
+img#flechaCuatro{
+	margin-top: 50px;
+	margin-left: 490px;
+	height: 100px;
+}
+
+/*galeria*/
+div#galeria{
+	background-image: url(img/blanco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 1410px;
+	width: 1231px;
+	margin-left: 242px;
+}
+
+h2#gale{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 90px;
+	text-align: center;
+}
+
+div#gale{
+	background-color: #FFFF66;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	height: 1100px;
+	width: 1050px;
+	margin-top: 0px;
+	margin-left: 90px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*Fotos*/
+img#galeria{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	margin: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+img#galeria:hover{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	width: 320px;
+	height: 320px;
+}
+
+img#flechaCinco{
+	margin-top: 40px;
+	margin-left: 590px;
+	height: 100px;
+}
+
+/*evento*/
+div#evento{
+	background-image: url(img/colores.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 1410px;
+	width: 1231px;
+	margin-left: 242px;
+}
+
+h2#even{
+	font-family: 'Arbutus', cursive;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+h2#coti{
+	color: black;
+	font-family: 'Arbutus', cursive;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+div#registro{
+	width: 400px;
+	padding: 30px;
+	background-color: yellow;
+	margin-left: 200px;
+	margin-top: 200px;
+}
