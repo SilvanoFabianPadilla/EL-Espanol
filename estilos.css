@@ -438,7 +438,7 @@ div#evento{
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	height: 1410px;
+	height: 750px;
 	width: 1231px;
 	margin-left: 242px;
 }
@@ -455,16 +455,137 @@ h2#even{
 h2#coti{
 	color: black;
 	font-family: 'Arbutus', cursive;
-	font-size: 30px;
-	margin-top: 50px;
-	margin-left: 50px;
+	font-size: 28px;
+	margin-top: 0px;
 	text-align: center;
 }
 
+
 div#registro{
-	width: 400px;
+	width: 940px;
+	height: 350px;
 	padding: 30px;
-	background-color: yellow;
-	margin-left: 200px;
-	margin-top: 200px;
+	background: #FF0000;
+	background: -moz-linear-gradient(45deg, #FF0000 0%, #FFF900 50%, #FF0000 100%);
+	background: -webkit-linear-gradient(45deg, #FF0000 0%, #FFF900 50%, #FF0000 100%);
+	background: linear-gradient(45deg, #FF0000 0%, #FFF900 50%, #FF0000 100%);
+	margin-left: 120px;
+	margin-top: 50px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+/*nombre*/
+input#nombre{
+	font-family: 'Arbutus', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+/*email*/
+input#email{
+	font-family: 'Arbutus', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+/*telefono*/
+input#telefono{
+	font-family: 'Arbutus', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+/*fecha*/
+input#fecha{
+	font-family: 'Arbutus', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+/*domicilio*/
+input#domicilio{
+	font-family: 'Arbutus', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+/*persona*/
+input#personas{
+	font-family: 'Arbutus', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+h2#interesa{
+	color: black;
+	font-family: 'Arbutus', cursive;
+	font-size: 20px;
+	margin-top: -30px;
+	text-align: center;
+}
+
+/*paloma*/
+input#casi{
+	margin-left: 80px;
+	height: 30px;
+	width: 30px;
+	color: black;
+}
+
+/*boton*/
+h2#boton{
+	border-width: 5px;
+	border-style: solid;
+	border-color: black ;
+	font-family: 'Arbutus', cursive;
+	width: 200px;
+	text-align: center;
+	margin-left: 370px;
+}
+
+h2#boton:hover{
+	border-width: 5px;
+	border-style: solid;
+	border-color: white ;
+	background-color: black;
+	color: white;
+}
+
+img#flechaSeis{
+	margin-top: 40px;
+	margin-left: 590px;
+	height: 100px;
 }
